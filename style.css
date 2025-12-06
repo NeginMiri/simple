@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&#039;");
+
+body {
+  font-family: Nunito;
+}
+.hed {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+.s1 {
+  font-size: 18px;
+  width: 700;
+  color: #25282b;
+  margin-left: 120px;
+  margin-top: 18px;
+}
+.ulhed {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 120px;
+  margin-top: 18px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  width: 480px;
+  margin-left: 100px;
+  margin-top: -80px;
+}
+.left-h5 {
+  font-size: 20px;
+  color: #fdc435;
+  width: 700;
+}
+.left-h1 {
+  color: #25282b;
+  font-size: 64px;
+  line-height: 120%;
+  width: 486px;
+  height: 154px;
+}
+.left-p {
+  color: #828282;
+  font-size: 24px;
+  line-height: 150%;
+  width: 486px;
+  height: 108px;
+  margin-top: 30px;
+}
+.left-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+.btn1 {
+  background-color: #ffcc00;
+  counter-reset: #25282b;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  text-align: center;
+}
+.btn2 {
+  background-color: white;
+  counter-reset: #25282b;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  text-align: center;
+}
+.alltop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
